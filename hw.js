@@ -50,49 +50,49 @@ container.addEventListener('click', function(){
       audio1.play();
       audio1.currentTime = 0;
       btnA.classList.add('scale');
-      removeClassA();
+      removeClassA;
       break;
     case 'key83':
       audio2.play();
       audio2.currentTime = 0;
       btnS.classList.add('scale');
-      removeClassS();
+      removeClassS;
       break;
     case 'key68':
       audio3.play();
       audio3.currentTime = 0;
       btnD.classList.add('scale');
-      removeClassD();
+      removeClassD;
       break;  
     case 'key70':
       audio4.play();
       audio4.currentTime = 0;
       btnF.classList.add('scale');
-      removeClassF();
+      removeClassF;
       break;
     case 'key71':
       audio5.play();
       audio5.currentTime = 0;
       btnG.classList.add('scale');
-      removeClassG();
+      removeClassG;
       break;
     case 'key72':
       audio6.play();
       audio6.currentTime = 0;
       btnH.classList.add('scale');
-      removeClassH();
+      removeClassH;
       break;
     case 'key74':
       audio7.play();
       audio7.currentTime = 0;
       btnJ.classList.add('scale');
-      removeClassJ();
+      removeClassJ;
       break;
     case 'key75':
       audio8.play();
       audio8.currentTime = 0;
       btnK.classList.add('scale');
-      removeClassK();
+      removeClassK;
       break;  
     default:
       break;
@@ -107,49 +107,49 @@ document.addEventListener('keydown', function(event){
       audio1.play();
       audio1.currentTime = 0;
       btnA.classList.add('scale');
-      removeClassA();
+      removeClassA;
       break;
     case 83:
       audio2.play();
       audio2.currentTime = 0;
       btnS.classList.add('scale');
-      removeClassS();
+      removeClassS;
       break;
     case 68:
       audio3.play();
       audio3.currentTime = 0;
       btnD.classList.add('scale');
-      removeClassD();
+      removeClassD;
       break;  
     case 70:
       audio4.play();
       audio4.currentTime = 0;
       btnF.classList.add('scale');
-      removeClassF();
+      removeClassF;
       break;
     case 71:
       audio5.play();
       audio5.currentTime = 0;
       btnG.classList.add('scale');
-      removeClassG();
+      removeClassG;
       break;
     case 72:
       audio6.play();
       audio6.currentTime = 0;
       btnH.classList.add('scale');
-      removeClassH();
+      removeClassH;
       break;
     case 74:
       audio7.play();
       audio7.currentTime = 0;
       btnJ.classList.add('scale');
-      removeClassJ();
+      removeClassJ;
       break;
     case 75:
       audio8.play();
       audio8.currentTime = 0;
       btnK.classList.add('scale');
-      removeClassK();
+      removeClassK;
       break;  
     default:
       break;
