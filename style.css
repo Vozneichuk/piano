@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  background: black;
+}
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.buttonKey {
+	width: 4%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: white;
+  box-shadow: 0 0 10px white;
+  border-radius: 5px;
+  margin: 0px 15px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  transition: all .1s;
+}
+.scale{
+  box-shadow: 0 0 15px rgb(172, 172, 78);
+  transform: scale(1.5, 1.5);
+}
