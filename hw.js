@@ -1,19 +1,24 @@
 const container = document.querySelector('#container');
+const buttonKey = document.querySelectorAll('.buttonKey');
 
 function buttonDown(event){
   console.log(event)
   const buttonPressDown = event.keyCode;
-  if(buttonPressDown){
-    let audio = new Audio(`sound/${event.target.id}.mp3`);
-    audio.play();
-    audio.currentTime = 0;
-    event.target.classList.add('scale');
+  for (let i = 0; i < buttonKey.length; i++){
+    if(buttonPressDown == buttonKey[i].id){
+      let audio = new Audio(`sound/${event.keyCode}.mp3`);
+      audio.play();
+      audio.currentTime = 0;
+      buttonKey[i].classList.add('scale')
+    }
   }
 }
 function buttonUp(event){
   const buttonPressUp = event.keyCode;
-  if (buttonPressUp){
-    event.target.classList.remove('scale');
+  for (let i = 0; i < buttonKey.length; i++){
+    if (buttonPressUp == buttonKey[i].id){
+      buttonKey[i].classList.remove('scale');
+    }
   }
 }
 
