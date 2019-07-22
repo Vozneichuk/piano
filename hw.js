@@ -25,8 +25,8 @@ function buttonUp(event){
 
 
 
-container.addEventListener('keydown', buttonDown) 
-container.addEventListener('keyup', buttonUp)
+document.addEventListener('keydown', buttonDown) 
+document.addEventListener('keyup', buttonUp)
 
 
 
