@@ -28,6 +28,6 @@ body{
   user-select: none;
 }
 .scale{
-  box-shadow: 0 0 15px rgb(172, 172, 78);
+  box-shadow: 0 0 15px goldenrod;
   transform: scale(1.5, 1.5);
 }

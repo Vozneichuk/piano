@@ -36,7 +36,7 @@ container.addEventListener('keyup', buttonUp)
 
 
 function clickMouse (){
-  const mouseClick = event.target.id;
+  const mouseClick = event.target.className;
   if(mouseClick){
     let audio = new Audio(`sound/${event.target.id}.mp3`);
     audio.play();
@@ -45,9 +45,9 @@ function clickMouse (){
   }
 }
 function unClickMouse(){
-  const mouseUnClick = event.target.id;
+  const mouseUnClick = event.target.className;
   if(mouseUnClick){
-    event.target.classList.remove('scale');
+   event.target.classList.remove('scale');
     console.log(event)
   }
 }
